@@ -1,0 +1,10 @@
+services:
+  relaydesk:
+    build: .
+    ports:
+      - "127.0.0.1:4328:4328"
+    volumes:
+      - relaydesk-data:/app/data
+    restart: unless-stopped
+volumes:
+  relaydesk-data:

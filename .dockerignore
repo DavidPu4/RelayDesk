@@ -1,0 +1,9 @@
+node_modules
+dist
+data
+local-results
+.git
+*.sqlite*
+*.log
+.env*
+output
